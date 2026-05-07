@@ -2,11 +2,11 @@
 
 ## Informações do Aluno
 
-- **Nome:** [Julia Lopes de Souza]
-- **RM:** [566557]
-- **Turma:** [2CCPX]
-- **Curso:** [Ciência da Computação]
-- **GitHub:** [@souzazz-julia]
+- **Nome:** Julia Lopes de Souza
+- **RM:** 566557
+- **Turma:** 2CCPX
+- **Curso:** Ciência da Computação
+- **GitHub:** @souzazz-julia
 
 ---
 
@@ -39,7 +39,7 @@ Este projeto é o resultado do aprendizado nas aulas 1-9 de Programação Orient
 **Pense:** E se o FiapRide tiver 1 milhão de usuários? Como a Classe ajuda a resolver isso?
 
 **Sua Resposta:**
-[A classe é um molde. Com 1 milhão de usuários, criar variável para cada um é impossível. A classe organiza e padroniza.]
+A classe é um molde. Com 1 milhão de usuários, criar variável para cada um é impossível. A classe organiza e padroniza.
 
 ---
 
@@ -48,7 +48,7 @@ Este projeto é o resultado do aprendizado nas aulas 1-9 de Programação Orient
 **Pergunta:** "Se nós podemos simplesmente fazer `passageiro.saldo = passageiro.saldo + 100` diretamente no código principal, por que dá tanto trabalho criar um método específico chamado `adicionarSaldo(valor)` para fazer isso? Quais seriam os riscos para a nossa startup de mobilidade se deixássemos qualquer programador alterar o saldo diretamente?"
 
 **Sua Resposta:**
-[O método impede valores negativos. Sem ele, qualquer programador pode zerar saldos ou colocar valores inválidos.]
+O método impede valores negativos. Sem ele, qualquer programador pode zerar saldos ou colocar valores inválidos.
 
 ---
 
@@ -59,7 +59,7 @@ Este projeto é o resultado do aprendizado nas aulas 1-9 de Programação Orient
 Pense bem: Qual a diferença entre dar a alguém uma CÓPIA de um documento seu, e entregar o documento ORIGINAL para a pessoa rasurar?"
 
 **Sua Resposta:**
-[Get público dá uma cópia segura. Atributo público dá o original direto, permitindo que qualquer um altere sem controle.]
+Get público dá uma cópia segura. Atributo público dá o original direto, permitindo que qualquer um altere sem controle.
 
 ---
 
@@ -75,7 +75,7 @@ Pensando no mundo real e no Clean Code: Por que é um erro gravíssimo clicar em
 *Dica: Pense sobre o que pode ou não mudar fisicamente em um carro, e a diferença entre "alterar um dado no banco" e "executar um processo real no Detran".*
 
 **Sua Resposta:**
-[Modelo de carro não muda. Criar setModelo() permitiria transformar um Uno num Corolla, o que é fraude. SetPlaca privado força passar pelo processo do Detran.]
+Modelo de carro não muda. Criar setModelo() permitiria transformar um Uno num Corolla, o que é fraude. SetPlaca privado força passar pelo processo do Detran.
 
 ---
 
@@ -86,7 +86,7 @@ Pensando no mundo real e no Clean Code: Por que é um erro gravíssimo clicar em
 *Pense nas regras de negócio: O que acontece na hora que a Viagem acaba e o sistema precisa descontar o saldo? Se a Viagem tiver apenas a String "Ana Silva", ela consegue mexer no dinheiro dela?*
 
 **Sua Resposta:**
-[Com só o nome, não dá para descontar o saldo. Preciso do objeto inteiro para executar pagarViagem() no passageiro.]
+Com só o nome, não dá para descontar o saldo. Preciso do objeto inteiro para executar pagarViagem() no passageiro.
 
 ---
 
@@ -97,7 +97,7 @@ Pensando no mundo real e no Clean Code: Por que é um erro gravíssimo clicar em
 Por que o Java não deixa a filha alterar as variáveis privadas da mãe diretamente? Qual o princípio das aulas passadas que isso está protegendo?"
 
 **Sua Resposta:**
-[Protege o encapsulamento. Se a filha pudesse mexer direto, qualquer classe herdada burlaria a validação que está na mãe.]
+Protege o encapsulamento. Se a filha pudesse mexer direto, qualquer classe herdada burlaria a validação que está na mãe.
 
 ---
 
@@ -106,7 +106,7 @@ Por que o Java não deixa a filha alterar as variáveis privadas da mãe diretam
 **Pergunta:** "No nosso loop `for (Veiculo veiculo : frota)`, a variável `veiculo` é do tipo genérico `Veiculo`. Se esquecêssemos de criar o método `calcularAutonomia()` lá na classe mãe `Veiculo`, nós conseguiríamos chamá-lo dentro do loop, mesmo sabendo que ele existe dentro do `Carro` e da `Moto`? Por que o contrato precisa existir na base da hierarquia?"
 
 **Sua Resposta:**
-[Não conseguiria. O compilador só enxerga o tipo Veiculo. Se o método não existe na mãe, dá erro. O contrato precisa estar lá.]
+Não conseguiria. O compilador só enxerga o tipo Veiculo. Se o método não existe na mãe, dá erro. O contrato precisa estar lá.
 
 ---
 
@@ -119,7 +119,7 @@ Por que, então, no código, precisamos EXPLICITAMENTE dizer ao Java que 'Veícu
 Pense: Se esquecermos de colocar 'abstract', qual o risco que corremos? Alguém pode criar 'new Veículo()' e quebrar a lógica do nosso sistema?"
 
 **Sua Resposta:**
-[Não faz sentido. Ninguém compra "um veículo" sem ser carro, moto etc. O Java não deduz sozinho. Sem abstract, alguém cria new Veiculo() e quebra a lógica.]
+Não faz sentido. Ninguém compra "um veículo" sem ser carro, moto etc. O Java não deduz sozinho. Sem abstract, alguém cria new Veiculo() e quebra a lógica.
 
 ---
 
@@ -132,7 +132,7 @@ Pense: Se 'CarroEletrico' pudesse herdar de 'Veículo' E de 'Bateria' ao mesmo t
 Como as interfaces resolvem esse problema?"
 
 **Sua Resposta:**
-[Classes mães têm código executável. Se duas tivessem ligar(), haveria conflito. Interfaces só têm assinaturas, sem código, então não há conflito. Você implementa uma vez e serve para as duas.]
+Classes mães têm código executável. Se duas tivessem ligar(), haveria conflito. Interfaces só têm assinaturas, sem código, então não há conflito. Você implementa uma vez e serve para as duas.
 
 ---
 
@@ -142,15 +142,15 @@ Como as interfaces resolvem esse problema?"
 
 **Qual foi o domínio que você escolheu para seu projeto pessoal?**
 
-[Celulares.]
+Celulares.
 
 **Quais classes você criou?**
 
-[Celular, Recarregavel.]
+Celular, Recarregavel.
 
 **Qual foi o maior desafio técnico que você enfrentou?**
 
-[Implementar a interface Recarregavel na classe Celular. Precisei entender que a interface só define o contrato e a classe implementa a lógica.]
+Implementar a interface Recarregavel na classe Celular. Precisei entender que a interface só define o contrato e a classe implementa a lógica.
 
 ---
 
@@ -158,12 +158,12 @@ Como as interfaces resolvem esse problema?"
 
 **O que você aprendeu nestas 9 aulas?**
 
-[Aprendi que programar orientado a objetos não é só escrever código, é pensar em como o mundo real se traduz para o computador.]
+Aprendi que programar orientado a objetos não é só escrever código, é pensar em como o mundo real se traduz para o computador.
 
 **Qual conceito foi mais difícil de entender?**
 
-[Interface. Entendi que ela é só um contrato sem código, diferente da classe abstrata.]
+Interface. Entendi que ela é só um contrato sem código, diferente da classe abstrata.
 
 **O que você melhoraria no seu projeto se pudesse refazer?**
 
-[Adicionaria mais validações e criaria um menu interativo no console.]
+Adicionaria mais validações e criaria um menu interativo no console.
